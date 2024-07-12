@@ -51,8 +51,6 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
             String,
             dynamic>;
         String deviceId = map['data']['deviceId'];
-        print("fuck $deviceId");
-        Fluttertoast.showToast(msg: "fuck $deviceId");
         Navigator.of(context).pushReplacement(
           MaterialPageRoute(builder: (_)=>KycScreen(deviceId: deviceId))
         );
