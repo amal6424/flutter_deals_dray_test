@@ -1,4 +1,4 @@
-# deals_dray
+# deals_dray_flutter_project
 
 A new Flutter project.
 

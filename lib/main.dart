@@ -1,18 +1,25 @@
+import 'package:deals_dray_flutter_project/screens/register/register_final_screen.dart';
+import 'package:deals_dray_flutter_project/screens/register/register_start_screen.dart';
+import 'package:deals_dray_flutter_project/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
-import 'scene/splash_screen.dart';
 
 void main() {
-  runApp(const DealsDrayApp());
+  runApp(const MyApp());
 }
 
-class DealsDrayApp extends StatelessWidget{
-  const DealsDrayApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
-  Widget build(BuildContext buildContext){
+  Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      title: 'Flutter Demo',
+      theme: ThemeData(
+
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: const SplashScreen()
     );
   }
 }
