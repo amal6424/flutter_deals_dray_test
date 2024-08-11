@@ -17,14 +17,14 @@ class RegisterFinalScreen extends StatefulWidget{
 class _RegisterFinalScreenState extends State<RegisterFinalScreen>{
   @override
   Widget build(BuildContext context){
-    double _screenWidth =  MediaQuery.of(context).size.width;
-    double _exactWidth = _screenWidth-_screenWidth/4;
+    double screenWidth =  MediaQuery.of(context).size.width;
+    double exactWidth = screenWidth-screenWidth/4;
     return Scaffold(
       appBar: _appBar(),
       floatingActionButton: _floatingActionButton(context),
       body: Center(
          child: Container(
-           width: _exactWidth,
+           width: exactWidth,
            child: _inputOptions(context)
          ),
       ),

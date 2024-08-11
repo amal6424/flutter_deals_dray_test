@@ -10,9 +10,9 @@ class StringConstants{
 
   //OTP VIEW
   static const OTP_VERIFICATION = "OTP Verification";
-  static const OTP_NOT_RECEIVED = "didnt receive otp ";
+  static const OTP_NOT_RECEIVED = "didn't receive otp ";
   static const OTP_RE_SENT = "Otp resent successfully.";
-  static const OTP_RESEND_ERROR = "Error occured while sending otp.";
+  static const OTP_RESEND_ERROR = "Error occurred while sending otp.";
   static const OTP_RESEND = "resend otp";
   static const OTP_SENT = "We have sent a unique OTP number to your mobile ";
   static const OTP_ENTER_CORRECT = "Please Enter Correct Otp";
@@ -24,5 +24,5 @@ class StringConstants{
   static const REGISTER_CREDENTIALS = "Please enter your credentials to proceed";
   static const REGISTER_EMAIL = "Your Email";
   static const REGISTER_CREATE_PASSWORD = "Create Password";
-  static const REGISTER_REFFERAL_CODE = "Refferal code (Optional)";
+  static const REGISTER_REFFERAL_CODE = "Referral code (Optional)";
 }
