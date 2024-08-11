@@ -42,11 +42,9 @@ class _OTpViewState extends State<OTpView> {
   Widget build(BuildContext context) {
     _screenHeight = MediaQuery.of(context).size.height;
     _screenWidth = MediaQuery.of(context).size.width;
-    return SafeArea(
-      child: Scaffold(
-        backgroundColor: Colors.white,
-        body: otpBodySection(context),
-      ),
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: otpBodySection(context),
     );
   }
   SingleChildScrollView otpBodySection(BuildContext context) {
